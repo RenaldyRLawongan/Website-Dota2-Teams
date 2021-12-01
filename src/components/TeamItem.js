@@ -14,7 +14,7 @@ const TeamItem = (props) => {
                             </div>
                             <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                 <div className="text-center">
-                                    <Link className="btn btn-outline-dark mt-auto" to="/details">Team Details
+                                    <Link className="btn btn-outline-dark mt-auto" to={`/details/${props.teams.team_id}`}>Team Details
                                     </Link></div>
                             </div>
                         </div>

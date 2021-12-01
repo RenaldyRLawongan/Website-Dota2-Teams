@@ -9,7 +9,7 @@ const About = () => {
 
         <div className="container">
         <h1>About Page</h1>
-        <p>This is about page.</p>
+        <p>Lawongan, Renaldy Richard (105022010016), Informatika</p>
         </div>
 
         <Footer />
